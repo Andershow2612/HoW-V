@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* o import feito do google fonts para que alguns estilos de letra fiquem diferente*/
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainContainer{
+    width: 99.7%;
+    height: 99.5%;
+    background-color: black;
+    background-image: linear-gradient(to right, #FF7A00, #CE6930, #000000);
+    padding: 0;
+    margin: 0;
+}
+
+.mainHeader{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid white;
+}
+
+.asdasdss{
+    z-index: 9999;
+    width: 100px;
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Logostyle{
+    width: 100px;
+    height: 100px;
+}
+
+.espacamento{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaofalante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botaobotao{
+    border: 0;
+    box-shadow: 7px 5px 5px black;
+}
+
+.botaobotao:hover{
+    background-color: gray;
+}
+
+.pesquisar{
+    width: 1400px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.eventodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.eventoicon{
+    align-items: baseline;
+}
+
+.autofalantediv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.autofalanteicon{
+    align-items: center;
+}
+
+.caixasdesomdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.caixasdesomicon{
+    align-items: center;
+}
+
+.potenciasdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.potenciaicon{
+    align-items: center;
+}
+
+.iluminacaodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.iluminacaoicon{
+    align-items: center;
+}
+
+.portifoliodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.portifolioicon{
+    align-items: center;
+}
+
+.idPesquisa{
+    width:80vw;
+    height: 40px;
+    border-radius: 30px;
+    background-image: url("./icons8-pesquisar-30.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px;
+}
+
+.idPesquisa::placeholder{
+    padding-left: 10px;
+}
+
+.mainPage{
+    height: 700px;
+    background-color: transparent;
+    display: flex;
+}
+
+.mainMenu{
+    width: 300px;
+    height: 400px;
+    background-color: transparent;
+    padding: 35px;
+    text-align: center;
+    border-right: 3px solid white;
+    
+}
+
+.botoesmenu{
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-style: none;
+    color: white;
+}
+
+.botoesmenu:hover{
+    cursor: pointer;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.mainContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: space-around;
+}
+
+.extraContent{
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid white;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteudo{
+    width: calc(100vw - 430px);
+    height: auto;
+    display: flex;
+    overflow:auto; 
+}
+
+#registros-container{ /*responsavel pela div principal*/
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+#registros-container > div{ /*esse id é responsavel pelo posicionamento dos containers*/
+    width: 49%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+
+#registros-container > div > p{ /*Responsavel pelo conteúdo dentro do container*/
+    color: white;
+    display: flex;
+}
+.registros-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.infoproduto{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.flexionando{
+    display: flex;
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-content{
+    width: 150px;
+    height: 150px;
+}
+
+.btn-excluir{
+    display: flex;
+    justify-content: end;
+}

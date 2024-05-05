@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <fieldset class="mainContainer"> <!-- container principal dos dados-->
+        <header class="mainHeader">
+            <div class="logo">
+                <a href="./pages/portifolio/portifolioinfo/portifolio.html"><img class="Logostyle" src="logo.jpg"></a>
+            </div>
+            <div class="espacamento">
+                <div class="botaofalante">
+                    <a href="../../../index.html"><button class="botaobotao">Voltar</button></a>
+                </div>
+            </div>
+            <div class="pesquisar">
+                <label for="PesquiseAqui"></label> <!-- Barra de pesquisa-->
+                <input type="text" name="Pesquisa" class="idPesquisa" placeholder="pesquise aqui...">
+            </div>
+        </header>
+
+        <section class="mainPage">
+            <div class="mainMenu"> <!--para navegar dentro do menu principal-->
+                <div class="autofalantediv">
+                    <div class="autofalanteletras">
+                        <a href="../../autofalantes/autofalantesinfo/autofalantes.html"><button class="botoesmenu"> Auto-falantes</button></a>
+                    </div>
+                    <div class="autofalanteicon">
+                        <img src="speakerMenu.png">
+                    </div>
+                </div>
+                <br>
+
+                <div class="caixasdesomdiv">
+                    <div class="caixasdesomletras">
+                        <a href="../../caixasdesom/caixasdesominfo/caixasdesom.html""><button class="botoesmenu"> Caixas de som</button></a>
+                    </div>
+                    <div class="caixasdesomicon">
+                        <img src="caixadesomMenu.png">
+                    </div>
+                </div>
+                <br>
+
+                <div class="potenciasdiv">
+                    <div class="potenciasletras">
+                        <a href="../../potencias/potenciasinfo/potencias.html"><button class="botoesmenu"> Potências</button></a>
+                    </div>
+                    <div class="potenciaicon">
+                        <img src="potenciaMenu.png">
+                    </div>
+                </div>
+                <br>
+
+                <div class="iluminacaodiv">
+                    <div class="iluminacaoletra">
+                        <a href="../../iluminação/iluminacaoinfo/iluminacao.html"><button class="botoesmenu"> Iluminação</button></a>
+                    </div>
+                    <div class="iluminacaoicon">
+                        <img src="iluminaçãoMenu.png">
+                    </div>
+                </div>
+                <br>
+
+                <div>
+                    <div class="extraContent">
+                        <h1>Entre em contato</h1>
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        <h3>Facebook: JDS sound system</h3>
+                        <h3>email:jdssoundsystem@gmail.com </h3>
+                        <h3>telefone:(47) 92407621 </h3>
+                    </div>
+                </div>
+            </div>
+
+            <main class="mainContent"><!-- onde vai ficar o conteúdo da homepage -->
+                    <div class="outside">
+                        <fieldset class="mainInput">
+                            <legend>formulário para adicionar autofalantes</legend>
+                            <div class="inputis" id="form">
+                                <label class="label" for="name" id="nomeProduto">Nome do produto</label>
+                                <input type="text" id="NomeProdutoForm">
+
+                                <label class="label" for="name" id="tamanhoProduto">Tamanho do produto</label>
+                                <input type="text" id="TamanhoProdutoForm">
+                                
+                                <label class="label" for="name" id="PotenciaProduto">Potência</label>
+                                <input type="text" id="PotenciaProdutoForm">
+
+                                <label class="label" for="name" id="MarcaProduto">Marca</label>
+                                <input type="text" id="MarcaProdutoInfo">
+
+                                <label class="label" for="name" id="PreçoAluguelProduto">Preço aluguel</label>
+                                <input type="text" id="PreçoAluguelProdutoInfo">
+
+                                <label class="label" for="name" id="imagemProdutoLabel">URL do produto</label>
+                                <input type="text" placeholder="digite a url" id="imagemProduto">
+
+                                <label class="label" for="name" id="precoLabel">Preço do produto</label>
+                                <input type="text" id="preco">
+
+                                <button onclick="criarProduto()">ADICIONAR PRODUTO</button>
+                            </div>
+                        </fieldset>
+                    </div>
+        </section>
+    </fieldset>
+    <script src="../../../script.js"></script>
+</body>
+</html>

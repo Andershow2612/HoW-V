@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainContainer{
+    width: 99.7%;
+    height: 99.5%;
+    background-color: black;
+    background-image: linear-gradient(to right, #FF7A00, #CE6930, #000000);
+    padding: 0;
+    margin: 0;
+}
+
+.mainHeader{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid white;
+}
+
+.logo{
+    width: 50%;
+    height: 100px;
+    display: flex;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.Logostyle{
+    width: 100px;
+    height: 100px;
+}
+
+.pesquisar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.eventodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.eventoicon{
+    align-items: baseline;
+}
+
+.autofalantediv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.autofalanteicon{
+    align-items: center;
+}
+
+.caixasdesomdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.caixasdesomicon{
+    align-items: center;
+}
+
+.potenciasdiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.potenciaicon{
+    align-items: center;
+}
+
+.iluminacaodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.iluminacaoicon{
+    align-items: center;
+}
+
+.portifoliodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.portifolioicon{
+    align-items: center;
+}
+
+#idPesquisa{
+    width:80vw;
+    height: 40px;
+    border-radius: 30px;
+    background-image: url("./icons8-pesquisar-30.png");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    padding-right: 30px;
+}
+
+.mainPage{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    display: flex;
+}
+
+.mainMenu{
+    width: 300px;
+    height: 630px;
+    background-color: transparent;
+    padding: 35px;
+    text-align: center;
+    border-right: 3px solid white;
+}
+
+.botoesmenu{
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-style: none;
+    color: white;
+}
+
+.botoesmenu:hover{
+    cursor: pointer;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.extraContent{
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid white;
+}
+
+.mainContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo2{
+    width: 625px;
+    height: 400px;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: aqua;
+}
+
+.texto{
+    width: 500px;
+    height: 250px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    border: 3px solid black;
+}
+
+.texto1{
+    align-items: center;
+    justify-content: center;
+}
